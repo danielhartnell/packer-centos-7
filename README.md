@@ -1,18 +1,4 @@
 packer-centos-7
 ===
 
-```
-vagrant init hfm4/centos7
-vagrant up
-```
-
-### Box url
-
-- https://atlas.hashicorp.com/hfm4/boxes/centos7
-
-Build box
----
-
-```
-packer build packer.json
-```
+This has forked from hfm/packer-centos-7. I'm storing my modified `ks.cfg` file here as a resource for my virtual machines to all when they are being provisioned by Packer.
